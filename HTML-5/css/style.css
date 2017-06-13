@@ -1,0 +1,164 @@
+﻿/*Wildcard style for across the site*/
+* {
+    margin: 0 auto 0 auto;
+    text-align: left;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 13px;
+    font-family: arial, helvetica, sans-serif;
+    color: #000000;
+    background-color: #1c478e;
+    background-image: url(../images/background.png);
+    background-repeat: repeat-x;
+}
+h2 {
+    padding-bottom: 10px;
+}
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #1c478e;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 7px;
+    color: #054dbc;
+}
+
+#container {
+    width: 960px;
+}
+
+#header {
+    width: 960px;
+    height: 85px;
+}
+
+    #header h1 {
+        float: left;
+        color: #ffffff;
+        font-size: 43px;
+        padding: 20px 0 0 20px; /*TRBL way*/
+    }
+
+    #header h2 {
+        float: right;
+        color: #A1D1FA;
+        padding: 40px 20px 0 0;
+    }
+
+    /*Inside header --> h1 --> span -->blue-text*/
+    #header h1 span.blue-text {
+        color: #67A0F5;
+    }
+
+    #header h2 span.white-text {
+        color: #ffffff;
+    }
+
+#menu {
+    display: block;
+    float: left;
+    width: 960px;
+    height: 54px;
+    clear: both; /*Since, headers are floated left and right, hence next div shouldn't be dependent on any float'*/
+}
+
+    #menu ul {
+        list-style: none; /*This will remove bullet points*/
+        padding: 0; /*ul list adds 10 px padding*/
+        width: 960px;
+        padding-top: 18px;
+        margin-left: auto;
+    }
+
+    #menu li {
+        list-style: none;
+        padding: 0;
+        display: inline;
+    }
+
+    #menu li a, #menu li a:visited {
+        float: left;
+        color: #ffffff;
+        text-decoration: none; /*This will remove udnderline*/
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 0 13px 0 13px;
+    }
+
+    #leftmenu {
+        margin-top: 15px;
+        width: 190px;
+        float: left;
+        background: #1c478e;
+        border-radius: 10px;
+        padding: 15px 20px 10px 10px;
+    }
+
+    #leftmenu ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    #leftmenu li {
+        list-style: none;
+        padding: 15px 0 8px 0;
+        border-bottom: 1px dashed #fff;
+    }
+
+    #leftmenu a, #leftmenu a:visited {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    #leftmenu h3 {
+        color: #ffffff;
+        padding: 0;
+        padding-bottom: 8px;
+        border-bottom: #fff solid 2px;
+        font-size: 16px;
+    }
+
+    #content {
+        margin-top: 15px;
+        display: block;
+        width: 680px;
+        float: left;
+        background: #ffffff;
+        border-radius: 10px;
+        border: 6px solid #1c478e;
+        padding: 15px;
+        margin-left: 15px;
+    }
+
+    .float {
+        float: right;
+        margin: 15px;
+    }
+
+    .developer {
+        width: 170px;
+        float: right;
+    }
+
+    .developer ul {
+        list-style: none;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .developer li {
+        list-style: none;
+        line-height: 1.7em;
+    }
