@@ -77,30 +77,30 @@ h4 {
     width: 960px;
 }
 
-#header {
+header {
     width: 960px;
     height: 85px;
 }
 
-    #header h1 {
+    header h1 {
         float: left;
         color: #ffffff;
         font-size: 43px;
         padding: 20px 0 0 20px; /*TRBL way*/
     }
 
-    #header h2 {
+    header h2 {
         float: right;
         color: #A1D1FA;
         padding: 40px 20px 0 0;
     }
 
     /*Inside header --> h1 --> span -->blue-text*/
-    #header h1 span.blue-text {
+    header h1 span.blue-text {
         color: #67A0F5;
     }
 
-    #header h2 span.white-text {
+    header h2 span.white-text {
         color: #ffffff;
     }
 
@@ -171,7 +171,7 @@ h4 {
         font-size: 16px;
     }
 
-    #content {
+    section {
         margin-top: 15px;
         display: block;
         width: 680px;
@@ -202,4 +202,13 @@ h4 {
     .developer li {
         list-style: none;
         line-height: 1.7em;
+    }
+
+    footer {
+        text-align: center;
+        background: #000000;
+        color: #ffffff;
+        margin-top: 60px;
+        padding: 10px 0 10px 0;
+        
     }
