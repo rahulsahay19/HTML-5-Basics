@@ -15,6 +15,47 @@ body {
     background-image: url(../images/background.png);
     background-repeat: repeat-x;
 }
+
+a {
+    text-decoration: none;
+}
+table,tr,td,th {
+    margin: 0;
+}
+
+table {
+   padding: 10px 0;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    /*padding: 5px 20px 5px 20px;*/ 
+    padding: 5px 20px; /*Shorthand for above, TOP-Bottom-5px, Left-Right:20px*/
+}
+
+table.dev-table, table.dev-table tr, table.dev-table td table.dev-table th {
+    font-size: 110%;
+    
+}
+table.dev-table tr, table.dev-table td {
+    border-bottom: 1px dashed #000000;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+input{
+    margin:0 5px 0 5px;
+}
+
+p{
+    margin:10px 0 10px 0;
+}
+
 h2 {
     padding-bottom: 10px;
 }

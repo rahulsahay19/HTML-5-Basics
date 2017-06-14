@@ -65,6 +65,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.html" />
+    <Content Include="browse.html" />
+    <Content Include="contact.html" />
     <Content Include="css\style.css" />
     <Content Include="images\background.png" />
     <Content Include="images\web.jpg" />
